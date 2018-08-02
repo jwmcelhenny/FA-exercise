@@ -2,15 +2,15 @@
 
 Purpose: Calculate churn rates based on daily tasks per user.
 
-Definitions
+Definitions:
 Active user -  A user is considered active on any day where they have at least one task executed in the prior 28 days.
 Churn - A user is considered to be churn the 28 days following their last being considered active. A user is no longer 
 part of churn if they become active again.
 
-Data Source(s)
+Data Source(s):
 zapier database - source_data.tasks_used_da
 
-Tools Used
+Tools Used:
 SQL Workbench - utilized to connect to zapier database, extract data, and execute queries to manipulate data set and perform calculations
 Tableau - utilized to calculate churn rates and report results/visualizations
 
